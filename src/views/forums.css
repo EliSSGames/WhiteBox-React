@@ -1,0 +1,20 @@
+.forums-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.forums-text {
+  color: rgb(255, 255, 255);
+  width: 1208px;
+  height: 1024px;
+  font-size: 5em;
+  align-self: center;
+  text-align: center;
+  padding-top: 500px;
+  padding-bottom: 500px;
+}
