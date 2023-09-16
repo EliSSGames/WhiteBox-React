@@ -12,9 +12,12 @@ const Home = (props) => {
         </Head>
         <img alt="image" src="/wblogo-300h.png" className="home-image" />
         <span className="home-text">WhiteBox</span>
+        <h1 className="home-text01">
+          Copyright © 2022-2023 WhiteBox - All Rights Reserved.
+        </h1>
         <div className="home-container1">
-          <h1 className="home-text01">WhiteBox website now released!</h1>
-          <span className="home-text02">
+          <h1 className="home-text02">WhiteBox website now released!</h1>
+          <span className="home-text03">
             <span>
               Along with the new coming season, We have released a website,
               which has the forums and store for easier access. This website
@@ -87,6 +90,18 @@ const Home = (props) => {
             line-height: 2;
             text-transform: capitalize;
           }
+          .home-text01 {
+            left: 0px;
+            color: rgb(255, 255, 255);
+            width: 1200px;
+            bottom: 0px;
+            height: 50px;
+            margin: auto;
+            position: absolute;
+            align-self: flex-end;
+            text-align: center;
+            text-decoration: underline;
+          }
           .home-container1 {
             top: 178px;
             left: 0px;
@@ -106,7 +121,7 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: #1e1e1e;
           }
-          .home-text01 {
+          .home-text02 {
             color: rgb(255, 255, 255);
             font-size: 75px;
             align-self: center;
@@ -114,7 +129,7 @@ const Home = (props) => {
             font-family: Roboto;
             font-weight: 700;
           }
-          .home-text02 {
+          .home-text03 {
             color: rgb(194, 192, 192);
             width: auto;
             height: var(--dl-size-size-xlarge);
