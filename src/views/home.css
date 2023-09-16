@@ -28,6 +28,18 @@
   line-height: 2;
   text-transform: capitalize;
 }
+.home-text01 {
+  left: 0px;
+  color: rgb(255, 255, 255);
+  width: 1200px;
+  bottom: 0px;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-end;
+  text-align: center;
+  text-decoration: underline;
+}
 .home-container1 {
   top: 178px;
   left: 0px;
@@ -47,7 +59,7 @@
   justify-content: flex-start;
   background-color: #1e1e1e;
 }
-.home-text01 {
+.home-text02 {
   color: rgb(255, 255, 255);
   font-size: 75px;
   align-self: center;
@@ -55,7 +67,7 @@
   font-family: Roboto;
   font-weight: 700;
 }
-.home-text02 {
+.home-text03 {
   color: rgb(194, 192, 192);
   width: auto;
   height: var(--dl-size-size-xlarge);

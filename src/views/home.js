@@ -14,9 +14,12 @@ const Home = (props) => {
       </Helmet>
       <img alt="image" src="/wblogo-300h.png" className="home-image" />
       <span className="home-text">WhiteBox</span>
+      <h1 className="home-text01">
+        Copyright © 2022-2023 WhiteBox - All Rights Reserved.
+      </h1>
       <div className="home-container1">
-        <h1 className="home-text01">WhiteBox website now released!</h1>
-        <span className="home-text02">
+        <h1 className="home-text02">WhiteBox website now released!</h1>
+        <span className="home-text03">
           <span>
             Along with the new coming season, We have released a website, which
             has the forums and store for easier access. This website will help
